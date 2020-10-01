@@ -22,3 +22,5 @@ $router->get('/key', function() {
 });
 
 $router->get('/product/store','ProductController@store');
+
+$router->get('/customer/store','CustomerController@store');
